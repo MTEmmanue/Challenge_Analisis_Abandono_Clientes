@@ -47,4 +47,30 @@ Identificar los factores que influyen en la **cancelación de clientes (Churn)**
 ## 📈 Gráficos Clave Generados
 
 | Gráfico | Insight Principal |
-|--------|----------------
+|--------|-------------------|
+| Histograma de `Charges.Monthly` vs `Churn` | Cargos altos correlacionan con abandono |
+| Gráfico de barras `Contract` vs `Churn` | Contratos mensuales tienen mayor churn |
+| Boxplot `tenure` vs `Churn` | Tenencia baja = mayor abandono |
+| Heatmap de correlaciones | `tenure`, `Charges.Total`, y `Contract` son variables relevantes |
+| Countplot de `PaymentMethod` | Métodos digitales retienen más clientes |
+
+---
+
+## 🧠 Insights Estratégicos
+
+- **Segmentación por contrato**: Ofrecer incentivos para migrar de contratos mensuales a anuales.
+- **Optimización de precios**: Revisar planes con cargos altos que generan abandono.
+- **Promoción de servicios adicionales**: Seguridad, respaldo y soporte técnico aumentan la retención.
+- **Digitalización del pago**: Fomentar métodos electrónicos para mejorar la experiencia del cliente.
+
+---
+
+## ✅ Recomendaciones Finales
+
+- Implementar un modelo predictivo de churn usando variables como `tenure`, `Contract`, `Charges.Monthly`, y `PaymentMethod`.
+- Diseñar campañas de retención para clientes con baja tenencia y cargos altos.
+- Evaluar la experiencia del cliente en contratos mensuales para detectar puntos de fricción.
+
+---
+
+## 📂 Recursos del Proyecto
